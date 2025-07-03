@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Logoff from "./pages/Logoff.jsx"
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Login from "./components/Login";
+import Motd from "./components/Motd";
 
 function App() {
   
@@ -21,7 +23,8 @@ function App() {
       </main>
       </div>
       <div>
-      
+            <Motd />
+            <Login />
       </div>
     </>
   )
